@@ -22,12 +22,14 @@
             max-width: 800px;
             margin: 2rem auto;
             padding: 0 1rem;
+            padding-bottom: 6rem;
         }
         section {
             background-color: white;
             padding: 2rem;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
         }
         footer {
             text-align: center;
@@ -37,6 +39,18 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -48,6 +62,27 @@
         <section>
             <h2>About Us</h2>
             <p>This is a simple test page for our new society project.</p>
+        </section>
+        
+        <section>
+            <h2>Our Mission</h2>
+            <p>To create a more connected and sustainable community through innovation, collaboration, and mutual support.</p>
+        </section>
+        
+        <section>
+            <h2>Our Values</h2>
+            <ul>
+                <li><strong>Innovation:</strong> Embracing new ideas and solutions</li>
+                <li><strong>Collaboration:</strong> Working together for common goals</li>
+                <li><strong>Sustainability:</strong> Creating lasting positive impact</li>
+                <li><strong>Inclusivity:</strong> Welcoming all voices and perspectives</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Get Involved</h2>
+            <p>Join us in building a better future for our community. There are many ways to contribute and make a difference.</p>
+            <p><a href="#" class="cta-button">Join Now</a></p>
         </section>
     </main>
     <footer>
